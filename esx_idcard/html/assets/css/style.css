@@ -1,0 +1,137 @@
+@font-face {
+  font-family: justsignature;
+  src: url('../fonts/justsignature/JustSignature.woff');
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+p {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 12px;
+  display: inline;
+}
+#id-card {
+  position: relative;
+  display: none;
+  margin: 230px 50px 0 0;
+  float: right;
+  width: 457px;
+  height: 272px;
+  padding: 54px 17px 10px 144px;
+  background: url("../images/idcard.png");
+}
+
+
+
+
+
+img {
+  position: absolute;
+  left:4%;
+  top:22%;
+  scale: 75%;
+}
+#lastname {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 17%;
+  left: 33.3%;
+}
+#firstname {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 23.7%;
+  left: 33.3%;
+}
+#dob {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 30.2%;
+  left: 33.3%;
+}
+#height {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 36.7%;
+  left: 33.3%;
+}
+#sex {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 43.5%;
+  left: 33.3%;
+}
+#popo {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 33.3%;
+}
+#signature {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  bottom: 76px;
+  left: 152px;
+  font-size: 18px;
+  text-transform:capitalize;
+  font-family: justsignature;
+}
+#licenses {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  left:9.5%;
+  top:79.5%;
+}
+#inline {
+  writing-mode: tb-lr;
+}
+
+
+#cpr {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  font-size: 25px;
+  top: 38%;
+  left: 7.3%;
+}
+#name2 {
+  color: #000000;
+  position: absolute;
+  font-weight: bolder;
+  top: 51%;
+  left: 7.3%;
+}
+#sex2 {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 58%;
+  left: 7.3%;
+}
+#height2 {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 65%;
+  left: 7.3%;
+}
+#popo2 {
+  color: #000000;
+  font-weight: bolder;
+  position: absolute;
+  top: 72%;
+  left: 7.3%;
+}
